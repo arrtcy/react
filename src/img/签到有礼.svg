@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="74" height="76" viewBox="0 0 74 76">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.192" y1="0.095" x2="0.822" y2="0.869" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c4a1ff"/>
+      <stop offset="1" stop-color="#8b63ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e7daff"/>
+      <stop offset="1" stop-color="#ddd2ff"/>
+    </linearGradient>
+    <filter id="路径_30" x="26.734" y="25.242" width="21.381" height="15.372" filterUnits="userSpaceOnUse">
+      <feOffset dx="0.5" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-color="#d8c9fd"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="签到有礼" transform="translate(9)">
+    <rect id="矩形备份_10" data-name="矩形备份 10" width="38" height="30" rx="11" transform="translate(9 28)" fill="#9c76ff"/>
+    <rect id="矩形" width="56" height="56" rx="19" fill="url(#linear-gradient)"/>
+    <rect id="矩形备份_12" data-name="矩形备份 12" width="16" height="10" rx="2" transform="translate(20 15)" opacity="0.656" fill="url(#linear-gradient-2)"/>
+    <rect id="矩形-2" data-name="矩形" width="24" height="11" rx="2" transform="translate(16 17)" fill="url(#linear-gradient-2)"/>
+    <rect id="矩形-3" data-name="矩形" width="30" height="24" rx="4" transform="translate(13 19)" fill="#fff"/>
+    <g transform="matrix(1, 0, 0, 1, -9, 0)" filter="url(#路径_30)">
+      <path id="路径_30-2" data-name="路径 30" d="M0,2,4.009,6.364,11.857,0" transform="translate(31 29)" fill="none" stroke="#707070" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+    </g>
+  </g>
+</svg>

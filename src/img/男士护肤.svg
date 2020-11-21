@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26.483" viewBox="0 0 26 26.483">
+  <g id="男士护肤" transform="translate(0 0.3)">
+    <path id="路径_3" data-name="路径 3" d="M0,5.473S.648,0,2.385,0,5.359,2.016,6.461,2.016s1.606-.772,2.934-.772,2.725,2.52,3.2,4.23S0,5.473,0,5.473Z" transform="translate(6.929 0)" fill="none" stroke="#4d585f" stroke-miterlimit="10" stroke-width="0.6"/>
+    <g id="矩形" transform="translate(5 4.183)" fill="#f4a3bc" stroke="#4d585f" stroke-miterlimit="10" stroke-width="0.6">
+      <rect width="16" height="7" rx="1.5" stroke="none"/>
+      <rect x="0.3" y="0.3" width="15.4" height="6.4" rx="1.2" fill="none"/>
+    </g>
+    <g id="矩形-2" data-name="矩形" transform="translate(0 7.183)" fill="#83ccfe" stroke="#4d585f" stroke-miterlimit="10" stroke-width="0.6">
+      <rect width="26" height="19" rx="2" stroke="none"/>
+      <rect x="0.3" y="0.3" width="25.4" height="18.4" rx="1.7" fill="none"/>
+    </g>
+    <g id="矩形-3" data-name="矩形" transform="translate(12 13.183)" fill="#bce3fd" stroke="#4d585f" stroke-miterlimit="10" stroke-width="0.6">
+      <rect width="14" height="8" rx="1" stroke="none"/>
+      <rect x="0.3" y="0.3" width="13.4" height="7.4" rx="0.7" fill="none"/>
+    </g>
+  </g>
+</svg>

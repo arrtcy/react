@@ -1,0 +1,55 @@
+<svg id="洗护用品" xmlns="http://www.w3.org/2000/svg" width="20" height="31" viewBox="0 0 20 31">
+  <g id="矩形" transform="translate(0 7)" fill="#bae1fe" stroke="#696969" stroke-miterlimit="10" stroke-width="0.6">
+    <path d="M10.526,0h0A9.474,9.474,0,0,1,20,9.474V23.549a.451.451,0,0,1-.451.451H.451A.451.451,0,0,1,0,23.549V10.526A10.526,10.526,0,0,1,10.526,0Z" stroke="none"/>
+    <path d="M10.513.3h0A9.187,9.187,0,0,1,19.7,9.487V23.3a.4.4,0,0,1-.4.4H.7a.4.4,0,0,1-.4-.4V10.513A10.213,10.213,0,0,1,10.513.3Z" fill="none"/>
+  </g>
+  <path id="路径_17" data-name="路径 17" d="M8.166,0A18.987,18.987,0,0,0,4.892,6.384c-1.17,3.929-.585,16.449-.585,16.449l-2.187.238L.776,22.282,0,21V7.733L.776,4.992l1.6-1.972L4.307,1.168,6.71,0Z" transform="translate(0.29 7.658)" fill="#92cbff" opacity="0.84"/>
+  <g id="矩形备份_7" data-name="矩形备份 7" transform="translate(0 7)" fill="none" stroke="#696969" stroke-miterlimit="10" stroke-width="0.6">
+    <path d="M10.526,0h0A9.474,9.474,0,0,1,20,9.474V23.549a.451.451,0,0,1-.451.451H.451A.451.451,0,0,1,0,23.549V10.526A10.526,10.526,0,0,1,10.526,0Z" stroke="none"/>
+    <path d="M10.513.3h0A9.187,9.187,0,0,1,19.7,9.487V23.3a.4.4,0,0,1-.4.4H.7a.4.4,0,0,1-.4-.4V10.513A10.213,10.213,0,0,1,10.513.3Z" fill="none"/>
+  </g>
+  <g id="矩形-2" data-name="矩形" transform="translate(8 1)" fill="#ece1dc" stroke="#696969" stroke-miterlimit="10" stroke-width="0.6">
+    <rect width="4" height="3" rx="1" stroke="none"/>
+    <rect x="0.3" y="0.3" width="3.4" height="2.4" rx="0.7" fill="none"/>
+  </g>
+  <g id="矩形-3" data-name="矩形" transform="translate(7)" fill="#bce3fe" stroke="#696969" stroke-miterlimit="10" stroke-width="0.6">
+    <rect width="11" height="2" rx="1" stroke="none"/>
+    <rect x="0.3" y="0.3" width="10.4" height="1.4" rx="0.7" fill="none"/>
+  </g>
+  <path id="路径_16" data-name="路径 16" d="M2.326,0V1.483H.707L0,.712.707,0Z" transform="translate(7.293 0.288)" fill="#93c9fe"/>
+  <g id="矩形备份_6" data-name="矩形备份 6" transform="translate(7)" fill="none" stroke="#696969" stroke-miterlimit="10" stroke-width="0.6">
+    <rect width="11" height="2" rx="1" stroke="none"/>
+    <rect x="0.3" y="0.3" width="10.4" height="1.4" rx="0.7" fill="none"/>
+  </g>
+  <g id="矩形-4" data-name="矩形" transform="translate(6 3)" fill="#f8f1eb" stroke="#696969" stroke-miterlimit="10" stroke-width="0.6">
+    <rect width="8" height="5" rx="1" stroke="none"/>
+    <rect x="0.3" y="0.3" width="7.4" height="4.4" rx="0.7" fill="none"/>
+  </g>
+  <path id="路径_18" data-name="路径 18" d="M2.271,0V4.3H.336L0,3.035.336.181Z" transform="translate(6.186 3.359)" fill="#efe2dc"/>
+  <g id="矩形备份_8" data-name="矩形备份 8" transform="translate(6 3)" fill="none" stroke="#696969" stroke-miterlimit="10" stroke-width="0.6">
+    <rect width="8" height="5" rx="1" stroke="none"/>
+    <rect x="0.3" y="0.3" width="7.4" height="4.4" rx="0.7" fill="none"/>
+  </g>
+  <g id="矩形-5" data-name="矩形" transform="translate(4 20)" fill="#d4aea9" stroke="#696969" stroke-miterlimit="10" stroke-width="0.5">
+    <rect width="12" height="2" rx="1" stroke="none"/>
+    <rect x="0.25" y="0.25" width="11.5" height="1.5" rx="0.75" fill="none"/>
+  </g>
+  <path id="路径_20" data-name="路径 20" d="M1.893,2.832S-.813,1.165.349,0" transform="translate(8 14.063)" fill="none" stroke="#696969" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.5"/>
+  <path id="路径_20备份" data-name="路径 20备份" d="M1.893,2.832S-.813,1.165.349,0" transform="translate(9 14.063)" fill="none" stroke="#696969" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.5"/>
+  <path id="路径_20备份_2" data-name="路径 20备份 2" d="M1.893,2.832S-.813,1.165.349,0" transform="matrix(0.998, 0.07, -0.07, 0.998, 10.101, 14)" fill="none" stroke="#696969" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.5"/>
+  <g id="椭圆形" transform="translate(5 16)" fill="#ffe3d6" stroke="#696969" stroke-miterlimit="10" stroke-width="0.6">
+    <circle cx="5" cy="5" r="5" stroke="none"/>
+    <circle cx="5" cy="5" r="4.7" fill="none"/>
+  </g>
+  <g id="椭圆形-2" data-name="椭圆形" transform="translate(8 19)" fill="#696969" stroke="#979797" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="0.5" cy="0.5" r="0.5" stroke="none"/>
+    <circle cx="0.5" cy="0.5" fill="none"/>
+  </g>
+  <ellipse id="椭圆形备份_22" data-name="椭圆形备份 22" cx="1" cy="0.5" rx="1" ry="0.5" transform="translate(7 20)" fill="#f1afbe"/>
+  <ellipse id="椭圆形备份_23" data-name="椭圆形备份 23" cx="1" cy="0.5" rx="1" ry="0.5" transform="translate(11 20)" fill="#f1afbe"/>
+  <g id="椭圆形备份_21" data-name="椭圆形备份 21" transform="translate(11 19)" fill="#696969" stroke="#979797" stroke-miterlimit="10" stroke-width="1">
+    <circle cx="0.5" cy="0.5" r="0.5" stroke="none"/>
+    <circle cx="0.5" cy="0.5" fill="none"/>
+  </g>
+  <path id="路径_19" data-name="路径 19" d="M0,.25a1.385,1.385,0,0,0,2,0" transform="translate(9 21.75)" fill="none" stroke="#696969" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.5"/>
+</svg>

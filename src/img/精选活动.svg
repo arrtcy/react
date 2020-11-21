@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="19.889" viewBox="0 0 20 19.889">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffd1dc"/>
+      <stop offset="1" stop-color="#fa4b71"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fab5cf"/>
+      <stop offset="1" stop-color="#f47ea1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.13" y1="0.126" x2="0.956" y2="0.869" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f384a7"/>
+      <stop offset="1" stop-color="#fb4970"/>
+    </linearGradient>
+  </defs>
+  <g id="精选活动" transform="translate(0 -0.964)">
+    <rect id="矩形" width="3" height="7" rx="1.5" transform="translate(13.268 0.964) rotate(45)" fill="url(#linear-gradient)"/>
+    <rect id="矩形备份_19" data-name="矩形备份 19" width="3" height="7" rx="1.5" transform="translate(4.964 3.939) rotate(-45)" fill="url(#linear-gradient-2)"/>
+    <rect id="矩形-2" data-name="矩形" width="16" height="12" rx="2" transform="translate(2 8.854)" fill="#ffa4b7"/>
+    <rect id="矩形-3" data-name="矩形" width="2" height="6" rx="1" transform="translate(13 11.854)" fill="#fff"/>
+    <rect id="矩形备份_18" data-name="矩形备份 18" width="20" height="5" rx="2" transform="translate(0 5.854)" fill="url(#linear-gradient-3)"/>
+  </g>
+</svg>

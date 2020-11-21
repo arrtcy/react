@@ -1,0 +1,24 @@
+<svg id="收货地址" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45" height="49" viewBox="0 0 45 49">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffd860"/>
+      <stop offset="1" stop-color="#ffb422"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffd459"/>
+      <stop offset="1" stop-color="#ffb842"/>
+    </linearGradient>
+  </defs>
+  <g id="椭圆形" transform="translate(7 39)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="1.87">
+    <ellipse cx="15" cy="5" rx="15" ry="5" stroke="none"/>
+    <ellipse cx="15" cy="5" rx="14.065" ry="4.065" fill="none"/>
+  </g>
+  <path id="椭圆形-2" data-name="椭圆形" d="M18,43S36,31.437,36,18A18,18,0,0,0,0,18C0,31.246,18,43,18,43Z" transform="translate(4 2)" fill="url(#linear-gradient)"/>
+  <g id="椭圆形-3" data-name="椭圆形" transform="translate(15 12)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2">
+    <circle cx="7" cy="7" r="7" stroke="none"/>
+    <circle cx="7" cy="7" r="6" fill="none"/>
+  </g>
+  <circle id="椭圆形-4" data-name="椭圆形" cx="3" cy="3" r="3" transform="translate(0 35)" fill="url(#linear-gradient-2)"/>
+  <circle id="椭圆形备份_41" data-name="椭圆形备份 41" cx="2" cy="2" r="2" transform="translate(35)" fill="url(#linear-gradient-2)"/>
+  <circle id="椭圆形备份_42" data-name="椭圆形备份 42" cx="1.5" cy="1.5" r="1.5" transform="translate(42 33)" fill="url(#linear-gradient-2)"/>
+</svg>

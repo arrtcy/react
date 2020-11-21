@@ -1,0 +1,10 @@
+<svg id="为您推荐" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16.778" height="16.178" viewBox="0 0 16.778 16.178">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.175" x2="0.803" y2="0.839" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffa4b7"/>
+      <stop offset="1" stop-color="#ff2b5d"/>
+    </linearGradient>
+  </defs>
+  <path id="Like" d="M15.9,2.054c-2.342-3.48-7.509-2.118-7.509.961,0-3.067-5.147-4.44-7.509-.961S.847,12.4,8.393,16.178C15.939,12.4,18.244,5.534,15.9,2.054Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+  <path id="路径_31" data-name="路径 31" d="M3.529,0A10.68,10.68,0,0,1,0,4.139" transform="translate(10 8.275)" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5"/>
+</svg>
