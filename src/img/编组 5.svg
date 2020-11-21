@@ -1,12 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20.986" height="20.552" viewBox="0 0 20.986 20.552">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="198.5" height="20" viewBox="0 0 198.5 20">
   <defs>
-    <linearGradient id="linear-gradient" x1="0.718" y1="0.35" x2="0.116" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#e26843"/>
-      <stop offset="1" stop-color="#f27f45"/>
+    <linearGradient id="linear-gradient" x1="0.175" x2="0.803" y2="0.839" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f79e73"/>
+      <stop offset="1" stop-color="#f26c40"/>
     </linearGradient>
   </defs>
-  <g id="编组_5" data-name="编组 5" transform="translate(0 0.563)">
-    <path id="形状结合" transform="translate(0 0)" fill="url(#linear-gradient)"/>
-    <path id="Stroke_21" data-name="Stroke 21" d="M0,.146C-.038.031,3.009,3.764,5.942,0" transform="translate(7.207 13.232)" fill="none" stroke="#fefefe" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.8"/>
+  <g id="编组_5" data-name="编组 5" transform="translate(0.5)">
+    <path id="直线_3" data-name="直线 3" d="M.5.5h43" transform="translate(154 10)" fill="none" stroke="#707070" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="直线_3备份" data-name="直线 3备份" d="M-.5.5h-43" transform="translate(43.5 10.5)" fill="none" stroke="#707070" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+    <text id="为您推荐" transform="translate(79 16)" fill="#f97f5f" font-size="15" font-family="MicrosoftJhengHeiUIRegular, Microsoft JhengHei UI" letter-spacing="0.024em"><tspan x="0" y="0">为</tspan><tspan y="0" font-family="YuGothicUI-Regular, Yu Gothic UI">您推荐</tspan></text>
+    <path id="Like" d="M13.269,1.651C11.314-1.146,7-.051,7,2.423,7-.042,2.709-1.146.738,1.651S.707,9.961,7,13C13.3,9.961,15.223,4.447,13.269,1.651Z" transform="translate(59 5)" opacity="0.905" fill="url(#linear-gradient)"/>
   </g>
 </svg>

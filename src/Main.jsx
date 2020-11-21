@@ -1,9 +1,8 @@
 import React from 'react'
-import { Switch, Route, withRouter } from "react-router-dom";
+// import {  withRouter } from "react-router-dom";
 import NavBottom from "./components/NavBottom";
 import SearchTop from "./components/SearchTop";
 function Main(props) {
-  console.log(props);
   return (
     < >
  <SearchTop />
@@ -16,4 +15,4 @@ function Main(props) {
   )
 }
 
-export default withRouter( Main)
+export default  Main
