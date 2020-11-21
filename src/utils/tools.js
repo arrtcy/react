@@ -13,4 +13,4 @@ export function getToken() {
   return localStorage.getItem("token");
 }
 
-export const serverUrl = "http://localhost:3009";
+export const serverUrl = "http://192.168.11.93:3009";
