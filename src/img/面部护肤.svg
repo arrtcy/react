@@ -1,0 +1,19 @@
+<svg id="面部护肤" xmlns="http://www.w3.org/2000/svg" width="28" height="31" viewBox="0 0 28 31">
+  <g id="椭圆形" fill="#ffe2f7" stroke="#604460" stroke-miterlimit="10" stroke-width="0.6">
+    <ellipse cx="14" cy="15.5" rx="14" ry="15.5" stroke="none"/>
+    <ellipse cx="14" cy="15.5" rx="13.7" ry="15.2" fill="none"/>
+  </g>
+  <g id="椭圆形-2" data-name="椭圆形" transform="translate(5 8)" fill="#fff" stroke="#604460" stroke-miterlimit="10" stroke-width="0.6">
+    <ellipse cx="4" cy="2.5" rx="4" ry="2.5" stroke="none"/>
+    <ellipse cx="4" cy="2.5" rx="3.7" ry="2.2" fill="none"/>
+  </g>
+  <g id="椭圆形备份_2" data-name="椭圆形备份 2" transform="translate(10 21)" fill="#fff" stroke="#604460" stroke-miterlimit="10" stroke-width="0.6">
+    <ellipse cx="4" cy="2.5" rx="4" ry="2.5" stroke="none"/>
+    <ellipse cx="4" cy="2.5" rx="3.7" ry="2.2" fill="none"/>
+  </g>
+  <g id="椭圆形备份" transform="translate(16 8)" fill="#fff" stroke="#604460" stroke-miterlimit="10" stroke-width="0.6">
+    <ellipse cx="4" cy="2.5" rx="4" ry="2.5" stroke="none"/>
+    <ellipse cx="4" cy="2.5" rx="3.7" ry="2.2" fill="none"/>
+  </g>
+  <path id="路径" d="M0,0A4.089,4.089,0,0,0,3.108,1.911,3.531,3.531,0,0,0,6,0" transform="translate(11 16)" fill="none" stroke="#604460" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.6"/>
+</svg>

@@ -1,0 +1,46 @@
+<svg id="我的签到" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="61" height="46" viewBox="0 0 61 46">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.734" y1="1" x2="0.734" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b590ff"/>
+      <stop offset="1" stop-color="#e2d3fc"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="蒙版" width="40" height="38" rx="5" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.511" y2="0.652" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#efe8ff"/>
+      <stop offset="0.31" stop-color="#efe8ff"/>
+      <stop offset="1" stop-color="#d8c6ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" x2="0.5" y2="0.994" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c5a9ff"/>
+      <stop offset="1" stop-color="#885eff"/>
+    </linearGradient>
+    <filter id="_" x="22" y="16" width="21" height="30" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-color="#a987ff"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-6" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#eadeff"/>
+      <stop offset="1" stop-color="#d1bafd"/>
+    </linearGradient>
+  </defs>
+  <g id="矩形" transform="translate(10 5)">
+    <rect id="蒙版-2" data-name="蒙版" width="40" height="38" rx="5" fill="url(#linear-gradient)"/>
+    <g id="矩形-2" data-name="矩形" clip-path="url(#clip-path)">
+      <rect id="矩形-3" data-name="矩形" width="50.732" height="16" transform="translate(-3.902 -5)" fill="#a987ff"/>
+      <path id="路径_2" data-name="路径 2" d="M7.946,0s6.168,9.283,20.359,11.175a244.75,244.75,0,0,0,29.934,1.731S27.18,23.632,26.479,23.632-1.375,18.336.055,14.016,7.946,0,7.946,0Z" transform="translate(-10.778 25.094)" fill="url(#linear-gradient-3)"/>
+    </g>
+  </g>
+  <rect id="矩形-4" data-name="矩形" width="5" height="12" rx="2.5" transform="translate(19)" fill="url(#linear-gradient-4)"/>
+  <rect id="矩形备份_13" data-name="矩形备份 13" width="5" height="12" rx="2.5" transform="translate(36)" fill="url(#linear-gradient-4)"/>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#_)">
+    <text id="_2" data-name="$" transform="translate(25 17)" fill="#fff" font-size="18" font-family="SegoeUI, Segoe UI" letter-spacing="0.04em"><tspan x="0" y="19">$</tspan></text>
+  </g>
+  <circle id="椭圆形" cx="3" cy="3" r="3" transform="translate(55 6)" fill="url(#linear-gradient-6)"/>
+  <circle id="椭圆形备份_43" data-name="椭圆形备份 43" cx="1.5" cy="1.5" r="1.5" transform="translate(51 34)" fill="url(#linear-gradient-6)"/>
+  <circle id="椭圆形备份_44" data-name="椭圆形备份 44" cx="2.5" cy="2.5" r="2.5" transform="translate(0 20)" fill="url(#linear-gradient-6)"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21.126" height="17.422" viewBox="0 0 21.126 17.422">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Clip_34" data-name="Clip 34" d="M3.473,0A3.484,3.484,0,0,0,0,3.474H0V13.948a3.484,3.484,0,0,0,3.473,3.474H17.651a3.484,3.484,0,0,0,3.475-3.474h0V3.474A3.484,3.484,0,0,0,17.651,0H3.473Z" transform="translate(0.028 0.462)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.896" y1="0.203" x2="0.046" y2="0.915" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e36943"/>
+      <stop offset="1" stop-color="#ee7a44"/>
+    </linearGradient>
+  </defs>
+  <g id="编组" transform="translate(-0.028 -0.462)">
+    <path id="Clip_34-2" data-name="Clip 34" d="M3.473,0A3.484,3.484,0,0,0,0,3.474H0V13.948a3.484,3.484,0,0,0,3.473,3.474H17.651a3.484,3.484,0,0,0,3.475-3.474h0V3.474A3.484,3.484,0,0,0,17.651,0H3.473Z" transform="translate(0.028 0.462)" fill="none"/>
+    <g id="编组-2" data-name="编组" clip-path="url(#clip-path)">
+      <g id="编组_7" data-name="编组 7" transform="translate(0.028 0.462)">
+        <path id="Fill_33" data-name="Fill 33" d="M3.473,0A3.484,3.484,0,0,0,0,3.474H0V13.948a3.484,3.484,0,0,0,3.473,3.474H17.651a3.484,3.484,0,0,0,3.475-3.474h0V3.474A3.484,3.484,0,0,0,17.651,0H3.473Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+        <path id="Stroke_35" data-name="Stroke 35" d="M14.527,6.16H2.854A2.854,2.854,0,0,1,0,3.306V2.854A2.854,2.854,0,0,1,2.854,0H14.527Z" transform="translate(9.87 6.286)" fill="none" stroke="#fefefe" stroke-miterlimit="10" stroke-width="1.8"/>
+        <path id="Fill_37" data-name="Fill 37" d="M1.791.9a.9.9,0,1,1-.9-.9.9.9,0,0,1,.9.9" transform="translate(11.994 8.47)" fill="#fefefe"/>
+      </g>
+    </g>
+  </g>
+</svg>

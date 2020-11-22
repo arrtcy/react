@@ -1,0 +1,29 @@
+<svg id="设置" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="47" viewBox="0 0 56 47">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#feaa88"/>
+      <stop offset="1" stop-color="#ff681f"/>
+    </linearGradient>
+    <filter id="椭圆形" x="14" y="12" width="24" height="24" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-color="#d9723c"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffad8f"/>
+      <stop offset="1" stop-color="#fe844c"/>
+    </linearGradient>
+  </defs>
+  <path id="形状结合" d="M18.957,44a5,5,0,0,1-4.978-4.531A18.583,18.583,0,0,1,9.5,36.736a5,5,0,0,1-6.668-1.829L.712,31.366a5,5,0,0,1,1.858-6.938L3,24.19q-.04-.59-.04-1.19a17.651,17.651,0,0,1,.267-3.064l-.654-.364A5,5,0,0,1,.712,12.634l2.12-3.542a5,5,0,0,1,6.721-1.8l1.489.829a18.625,18.625,0,0,1,2.915-1.58V5a5,5,0,0,1,5-5h5a5,5,0,0,1,5,5v1.54a18.625,18.625,0,0,1,2.915,1.58l1.489-.829a5,5,0,0,1,6.721,1.8l2.12,3.542a5,5,0,0,1-1.858,6.938l-.654.364A17.65,17.65,0,0,1,39.957,23q0,.6-.04,1.19l.427.238A5,5,0,0,1,42.2,31.366l-2.12,3.542a5,5,0,0,1-6.668,1.829,18.583,18.583,0,0,1-4.479,2.733A5,5,0,0,1,23.957,44Z" transform="translate(4.043 1)" fill="url(#linear-gradient)"/>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#椭圆形)">
+    <g id="椭圆形-2" data-name="椭圆形" transform="translate(16 14)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2.5">
+      <circle cx="9" cy="9" r="9" stroke="none"/>
+      <circle cx="9" cy="9" r="7.75" fill="none"/>
+    </g>
+  </g>
+  <circle id="椭圆形-3" data-name="椭圆形" cx="4" cy="4" r="4" transform="translate(48 25)" fill="url(#linear-gradient-2)"/>
+  <circle id="椭圆形备份_47" data-name="椭圆形备份 47" cx="3" cy="3" r="3" transform="translate(0 41)" fill="url(#linear-gradient-2)"/>
+  <circle id="椭圆形备份_48" data-name="椭圆形备份 48" cx="2" cy="2" r="2" transform="translate(11)" fill="url(#linear-gradient-2)"/>
+</svg>
