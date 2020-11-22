@@ -1,0 +1,28 @@
+.card {
+  width: 85%;
+  background-color: #fff;
+  margin: 10px auto;
+  border-radius: 5px;
+  position: relative;
+  padding: 5px;
+}
+.card > p {
+  border-bottom: 1px solid rgb(236, 236, 236);
+}
+.card img {
+  width: 80px;
+  height: 80px;
+  margin-left: 10px;
+}
+.content {
+  display: flex;
+  align-items: center;
+}
+.card .bottom {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.card .right {
+  flex: 1;
+}

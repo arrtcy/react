@@ -1,7 +1,7 @@
 import "./App.css";
 
 import Main from "./Main";
-import { Switch, Route, withRouter } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import Login from "./pages/login/login";
 import Home from "./pages/home/index";
 import Cart from "./pages/cart/index";
@@ -16,9 +16,8 @@ function App() {
           <Login />
         </Route>
 
-       
         <Main>
-        <Route path="/" exact>
+          <Route path="/" exact>
             <Home />
           </Route>
           <Route path="/cart">
@@ -31,11 +30,9 @@ function App() {
             <User />
           </Route>
         </Main>
-       
-
       </Switch>
     </>
   );
 }
 
-export default withRouter(App);
+export default App;
