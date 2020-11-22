@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Card } from "antd-mobile";
 import jingxuan from "../../img/爆款精选.svg";
 import dapaizhekou from "../../img/大牌折扣.svg";
@@ -10,7 +10,20 @@ import banner2 from "../../img/好友百万红包.svg";
 import jingxuanhuodong from "../../img/精选活动.svg";
 import jingxuanimg from "../../img/Screenshot_2020-10-22-14-45-40-011_cn.com.szqhyn.@2x.png";
 
-function Tuijian() {
+import { connect } from "react-redux";
+import { loadProducts } from "../../services/products";
+
+function Tuijian(props) {
+  console.log(props);
+  useEffect(() => {
+    loadProducts(props.page).then((res) => {
+      console.log(res);
+      props.dispatch({
+        type: "LOAD_PRODUCTS",
+        payload: res.products,
+      });
+    });
+  }, []);
   return (
     <div style={{ maxHeight: "2000px" }}>
       <div className="img">
@@ -20,9 +33,7 @@ function Tuijian() {
           style={{ display: "block", margin: "1rem auto" }}
         />
       </div>
-      <div
-        className="banner-bottom"
-      >
+      <div className="banner-bottom">
         <div>
           <img src={jingxuan} alt="爆款精选" />
           <p style={{ textAlign: "center" }}>爆款精选</p>
@@ -84,7 +95,7 @@ function Tuijian() {
         style={{
           height: "5px",
           border: "none",
-          backgroundColor:"#F0F0F0"
+          backgroundColor: "#F0F0F0",
         }}
       />
       <Card>
@@ -126,4 +137,4 @@ function Tuijian() {
   );
 }
 
-export default Tuijian;
+export default connect((store) => store.products)(Tuijian);
