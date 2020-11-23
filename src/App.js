@@ -9,11 +9,13 @@ import Account from "./pages/account/index";
 import User from "./pages/user/index";
 import PayCenter from "./pages/account/paycenter";
 import GiftApply from "./pages/account/giftapply";
+import Detail from "./pages/Detail";
 
 function App() {
   return (
     <>
       <Switch>
+       <Route path="/detail" component={ Detail} />
         <Route path="/login">
           <Login />
         </Route>

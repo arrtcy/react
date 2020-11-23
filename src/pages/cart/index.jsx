@@ -1,13 +1,17 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './index.css'
 import CartCard from '../../components/CartCards'
 import img from '../../img/编组 5.svg'
 import pro from '../../img/pro1.png'
 import pro1 from '../../img/pro2.png'
 import { Checkbox,Button} from 'antd'
+import {loadCarts}  from "../../services/carts"
 
 
 function Index() {
+  useEffect(()=>{
+    loadCarts().then(res=>console.log(res))
+  },[])
   return (
     <div className='bgc'>
       <div className='title'>
