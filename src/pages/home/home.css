@@ -51,6 +51,8 @@
 .tuijiancard {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
 }
 .tuijiancard > div {
   width: 45%;
@@ -65,6 +67,11 @@
 }
 .tuijiancard h3 {
   color: red;
+
+}
+.tuijiancard h4 {
+max-height: 3rem;  overflow: hidden;
+text-overflow: ellipsis;
 }
 .left-top {
   width: 70%;

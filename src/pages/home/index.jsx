@@ -3,6 +3,7 @@ import { Tabs, Badge } from "antd-mobile";
 import { withRouter } from "react-router-dom";
 import Tuijian from "./Tuijian";
 import Meizhuang from "./Meizhuang";
+import Muying from "./Muying";
 
 import "./home.css";
 
@@ -37,7 +38,7 @@ function Index(props) {
         <div>
           <Meizhuang></Meizhuang>
         </div>
-        <div>Content of third tab</div>
+        <div><Muying/></div>
         <div>Content of third tab</div>
       </Tabs>
       <div></div>

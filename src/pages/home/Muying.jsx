@@ -1,22 +1,23 @@
 import React,{} from "react";
 import { Card } from "antd-mobile";
-import mianbuhufu from "../../img/面部护肤.svg";
-import nanshihufu from "../../img/男士护肤.svg";
-import xiangshuicaizhuang from "../../img/香水彩妆.svg";
-import qiandaoyouli from "../../img/美容美体.svg";
-import kouqianghuli from "../../img/口腔护理.svg"
+import baobaochuxing from "../../img/宝宝出行.svg";
+import buruweiyang from "../../img/哺乳.svg";
+import ertongwanju from "../../img/玩具.svg";
+import fushilingshi from "../../img/零食.svg";
 
-import banner from "../../img/banner2.png";
+import niaobushijin from "../../img/尿裤湿巾.svg";
+import xihuyongpin from "../../img/洗护用品.svg";
+import tongzhuang from "../../img/童装.svg";
+import yunchanhuli from "../../img/孕产.svg";
+
+import banner from "../../img/母婴.png";
 import jingxuanhuodong from "../../img/精选活动.svg";
-import maofahuli from "../../img/毛发护理.svg";
-import nvxinghuli from "../../img/女性护理.svg";
-import shentihuli from "../../img/身体护理.svg";
 
 
 import { connect } from "react-redux";
 
 
-function Tuijian(props) {
+function Muying(props) {
   
   return (
     <div style={{ maxHeight: "2000px" }}>
@@ -32,36 +33,36 @@ function Tuijian(props) {
         style={{ display: "flex", justifyContent: "space-around" }}
       >
         <div>
-          <img src={mianbuhufu} alt="爆款精选" />
-          <p style={{ textAlign: "center" }}>面部护肤</p>
+          <img src={baobaochuxing} alt="爆款精选" />
+          <p style={{ textAlign: "center" }}>宝宝出行</p>
         </div>
         <div>
-          <img src={nanshihufu} alt="大牌折扣" />
-          <p style={{ textAlign: "center" }}>男士护肤</p>
+          <img src={buruweiyang} alt="大牌折扣" />
+          <p style={{ textAlign: "center" }}>哺乳喂养</p>
         </div>
         <div>
-          <img src={xiangshuicaizhuang} alt="今日特价" />
-          <p style={{ textAlign: "center" }}>香水彩妆</p>
+          <img src={ertongwanju} alt="今日特价" />
+          <p style={{ textAlign: "center" }}>儿童玩具</p>
         </div>
         <div>
-          <img src={qiandaoyouli} alt="签到有礼" />
-          <p style={{ textAlign: "center" }}>美容美体</p>
+          <img src={fushilingshi} alt="签到有礼" />
+          <p style={{ textAlign: "center" }}>辅食零食</p>
         </div>
         <div>
-          <img src={kouqianghuli} alt="爆款精选" />
-          <p style={{ textAlign: "center" }}>口腔护理 </p>
+          <img src={niaobushijin} alt="爆款精选" />
+          <p style={{ textAlign: "center" }}>尿裤湿巾 </p>
         </div>
         <div>
-          <img src={maofahuli} alt="大牌折扣" />
-          <p style={{ textAlign: "center" }}>毛发护理</p>
+          <img src={xihuyongpin} alt="大牌折扣" />
+          <p style={{ textAlign: "center" }}>洗护用品</p>
         </div>
         <div>
-          <img src={nvxinghuli} alt="今日特价" />
-          <p style={{ textAlign: "center" }}>女性护理</p>
+          <img src={tongzhuang} alt="今日特价" />
+          <p style={{ textAlign: "center" }}>童装</p>
         </div>
         <div>
-          <img src={shentihuli} alt="签到有礼" />
-          <p style={{ textAlign: "center" }}>身体护理</p>
+          <img src={yunchanhuli} alt="签到有礼" />
+          <p style={{ textAlign: "center" }}>孕产护理</p>
         </div>
       </div>
       <hr
@@ -81,7 +82,7 @@ function Tuijian(props) {
         <Card.Body>
           <div className="tuijiancard ">
           {props.list.map((temp,index) => {
-              if(index%3===0){
+              if(index%2===1){
                 return (
                 <div key={temp._id}>
                   <div className="left-top">赠4.50份HK08491</div>
@@ -103,4 +104,4 @@ function Tuijian(props) {
   );
 }
 
-export default connect(store=>store.products)(Tuijian);
+export default connect(store=>store.products)(Muying);

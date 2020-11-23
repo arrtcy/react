@@ -7,11 +7,13 @@ import Home from "./pages/home/index";
 import Cart from "./pages/cart/index";
 import Account from "./pages/account/index";
 import User from "./pages/user/index";
+import Detail from "./pages/Detail";
 
 function App() {
   return (
     <>
       <Switch>
+       <Route path="/detail" component={ Detail} />
         <Route path="/login">
           <Login />
         </Route>

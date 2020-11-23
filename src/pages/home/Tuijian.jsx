@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import {Link} from "react-router-dom";
 import { Card } from "antd-mobile";
 import jingxuan from "../../img/爆款精选.svg";
 import dapaizhekou from "../../img/大牌折扣.svg";
@@ -16,16 +17,19 @@ import { loadProducts } from "../../services/products";
 function Tuijian(props) {
   console.log(props);
   useEffect(() => {
-    loadProducts(props.page).then((res) => {
+    if(props.list.length===0){
+ loadProducts(1).then((res) => {
       console.log(res);
       props.dispatch({
         type: "LOAD_PRODUCTS",
         payload: res.products,
       });
     });
-  }, []);
+    }
+   
+  }, [props]);
   return (
-    <div style={{ maxHeight: "2000px" }}>
+    <div style={{ paddingBottom: "100px" }}>
       <div className="img">
         <img
           src={banner}
@@ -106,30 +110,21 @@ function Tuijian(props) {
         />
         <Card.Body>
           <div className="tuijiancard ">
-            <div>
-              <div className="left-top">赠4.50份HK08491</div>
-              <img
-                src="https://gd2.alicdn.com/imgextra/i2/46459582/TB2HnLhbnnI8KJjSszgXXc8ApXa_!!46459582.jpg_400x400.jpg"
-                alt=""
-              />
-              <h4>
-                【天天特价】欧美时尚手提包 漆皮女包休闲潮流气质亮面女士包包
-              </h4>
+            {props.list.map((temp,index) => {
+              if(index<10){
+                return (
+              <div key={temp._id}>
+                   <div className="left-top">赠4.50份HK08491</div>
+                  <Link to={"/detail/?id="+ temp._id}><img src={temp.coverImg} alt="" />
+                  <h4>{temp.name}</h4>
 
-              <h3>￥66.00</h3>
-            </div>
-            <div>
-              <div className="left-top">赠4.50份HK08491</div>
-              <img
-                src="https://gd2.alicdn.com/imgextra/i2/46459582/TB2HnLhbnnI8KJjSszgXXc8ApXa_!!46459582.jpg_400x400.jpg"
-                alt=""
-              />
-              <h4>
-                【天天特价】欧美时尚手提包 漆皮女包休闲潮流气质亮面女士包包
-              </h4>
-
-              <h3>￥66.00</h3>
-            </div>
+                  <h3>￥{temp.price}</h3></Link> 
+                </div>
+              );
+              }
+              return ''
+              
+            })}
           </div>
         </Card.Body>
       </Card>
