@@ -7,4 +7,5 @@
 .bgc {
   background-color: #fafafa;
   height: 100%;
+  overflow: auto;
 }

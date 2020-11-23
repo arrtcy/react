@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "antd";
 import { PlusOutlined, MinusOutlined } from "@ant-design/icons";
+import "./updown.css";
 
 function UpDown(props) {
   return (

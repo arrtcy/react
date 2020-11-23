@@ -7,6 +7,8 @@ import Home from "./pages/home/index";
 import Cart from "./pages/cart/index";
 import Account from "./pages/account/index";
 import User from "./pages/user/index";
+import PayCenter from "./pages/account/paycenter";
+import GiftApply from "./pages/account/giftapply";
 
 function App() {
   return (
@@ -15,7 +17,12 @@ function App() {
         <Route path="/login">
           <Login />
         </Route>
-
+        <Route path="/account/paycenter">
+          <PayCenter />
+        </Route>
+        <Route path="/account/giftapply">
+          <GiftApply />
+        </Route>
         <Main>
           <Route path="/" exact>
             <Home />
