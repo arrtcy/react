@@ -34,7 +34,6 @@ function PayCenter(props) {
           提现记录
         </span>
       </div>
-
       <div style={{backgroundColor:'white',paddingLeft:'5%',height:'60px',display:'flex',alignItems:'center'}}>
        <span style={{marginRight:'20px'}}>请选择提现方式</span> 
       <Dropdown.Button style={{background:'none',border:'none'}} icon={<DownOutlined />} placement="topCenter"  overlay={menu}>
